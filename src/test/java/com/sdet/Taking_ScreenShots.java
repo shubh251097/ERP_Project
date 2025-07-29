@@ -31,7 +31,7 @@ public class Taking_ScreenShots {
 		// File("C:\\Users\\Shubham\\Desktop\\SSQUARE\\ScreenShots\\img1.jpg");
 		// C:\Users\Shubham\Desktop\SSQUARE\ScreenShots
 		File destFile = new File(
-				"C:\\\\Users\\\\Shubham\\\\Desktop\\\\SSQUARE\\\\ScreenShots\\Screenshot23_" + timestamp + ".jpg");
+				"C:\\\\Users\\\\Shubham\\\\Desktop\\\\Square\\\\ScreenShots\\Screenshot23_" + timestamp + ".jpg");
 		Files.copy(srcFile, destFile);
 		Thread.sleep(2000);
 		System.out.println("ScreenShot Captured");
